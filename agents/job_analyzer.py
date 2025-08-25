@@ -201,9 +201,15 @@ class JobAnalyzer:
         # Parse JSON response
         try:
             requirements_data = json.loads(response.content)
-            return [JobRequirement(**req) for req in requirements_data]
-        except json.JSONDecodeError:
-            logger.warning("Could not parse requirements JSON, using fallback parsing")
+            parsed_requirements = []
+            for req in requirements_data:
+                if isinstance(req, dict):
+                    parsed_requirements.append(JobRequirement(**req))
+                else:
+                    logger.warning(f"Invalid requirement format: {req}")
+            return parsed_requirements
+        except (json.JSONDecodeError, TypeError, ValueError) as e:
+            logger.warning(f"Could not parse requirements JSON ({e}), using fallback parsing")
             return self._fallback_requirement_parsing(analysis_text)
     
     def _fallback_requirement_parsing(self, text: str) -> List[JobRequirement]:

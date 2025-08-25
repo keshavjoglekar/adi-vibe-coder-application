@@ -4,15 +4,15 @@
   "key_requirements": [],
   "hidden_requirements": [
     "Deep knowledge of PyTorch/TensorFlow (industry standard AI frameworks)",
-    "Strong programming skills in Python and C++ (common for AI/edge deployment)",
-    "Familiarity with embedded systems and hardware constraints",
-    "Experience with model quantization and compression techniques",
-    "Understanding of MLOps and deployment pipelines",
-    "Knowledge of current AI research trends and papers",
-    "Previous work at a semiconductor or hardware company",
-    "Experience with real-world product deployments, not just research",
-    "Track record of successful project completion",
-    "Experience working with hardware engineering teams"
+    "Strong programming skills in Python (dominant AI language)",
+    "Experience with embedded systems and hardware constraints",
+    "Familiarity with model compression techniques",
+    "Knowledge of edge computing frameworks (TensorRT, TFLite, etc.)",
+    "Understanding of hardware acceleration (GPU, NPU, etc.)",
+    "Previous work at a semiconductor/hardware company preferred",
+    "Experience presenting to executive leadership (due to VP direct report)",
+    "Track record of published research or patents (suggested by innovation focus)",
+    "Experience with product development cycles"
   ],
   "company_culture_signals": [
     "Company Values:",
@@ -22,7 +22,7 @@
     "Communication Style:",
     "Team Dynamics:",
     "Decision-Making Process:",
-    "Strong emphasis on technical excellence (\"exceptional AI engineer\", \"deep technical expertise\")"
+    "Strong emphasis on innovation and technical excellence (\"exceptional,\" \"next-generation\")"
   ],
   "technical_stack": [],
   "experience_level": "Mid-level",
@@ -36,7 +36,7 @@
   "success_metrics": [
     "SUCCESS",
     "Success",
-    "Deliver",
-    "metric"
+    "achieve",
+    "Metric"
   ]
 }
