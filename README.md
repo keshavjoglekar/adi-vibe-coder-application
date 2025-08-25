@@ -1,4 +1,8 @@
-# ADI Vibe Coder Application System
+# 🤖 ADI Vibe Coder-in-Residence Application
+**Skip the Résumé. Ship a Working Agent.**
+
+Built specifically for **Paul Golding, VP of Edge AI at Analog Devices**  
+*Autonomous AI Agent System by Keshav Joglekar*
 
 ## 🚀 30-Second Demo
 
