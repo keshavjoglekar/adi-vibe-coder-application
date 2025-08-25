@@ -1,158 +1,42 @@
 {
-  "position_title": "Vibe Coder-in-Residence (GenAI Tech EA)",
-  "company": "Analog Devices Inc.",
-  "processing_time_ms": 347,
-  "confidence_score": 0.94,
-  
-  "weighted_requirements": [
-    {
-      "requirement": "Shadow VP of Edge AI and capture friction points in real time",
-      "category": "workflow",
-      "importance": "critical",
-      "weight_score": 0.95,
-      "uniqueness_score": 0.92,
-      "evidence_needed": "Executive collaboration experience with workflow optimization",
-      "keywords": ["shadow", "VP", "friction", "real-time"]
-    },
-    {
-      "requirement": "Ship daily GenAI agents and micro-automations",
-      "category": "technical", 
-      "importance": "critical",
-      "weight_score": 0.94,
-      "uniqueness_score": 0.88,
-      "evidence_needed": "Track record of daily shipping and rapid prototyping",
-      "keywords": ["ship", "daily", "agents", "automation"]
-    },
-    {
-      "requirement": "Build VP's digital twin brain with 70%+ Turing test confusion",
-      "category": "technical",
-      "importance": "critical", 
-      "weight_score": 0.93,
-      "uniqueness_score": 0.95,
-      "evidence_needed": "AI personalization and voice synthesis expertise",
-      "keywords": ["digital twin", "Turing", "confusion", "BLEU"]
-    },
-    {
-      "requirement": "Mastery of GenAI frameworks (LangChain, MCP, OpenAI, Claude)",
-      "category": "technical",
-      "importance": "critical",
-      "weight_score": 0.91,
-      "uniqueness_score": 0.75,
-      "evidence_needed": "Portfolio of GenAI products built with these frameworks",
-      "keywords": ["LangChain", "MCP", "OpenAI", "Claude"]
-    },
-    {
-      "requirement": "Cut VP manual touchpoints by >25% within 60 days",
-      "category": "workflow",
-      "importance": "critical",
-      "weight_score": 0.89,
-      "uniqueness_score": 0.87,
-      "evidence_needed": "Quantified automation impact with metrics",
-      "keywords": ["touchpoints", "25%", "60 days", "automation"]
-    }
+  "position_title": "focuses on developing next-generation AI systems optimized for edge deployment,",
+  "company": "will shape the future of edge AI",
+  "key_requirements": [],
+  "hidden_requirements": [
+    "Deep knowledge of PyTorch/TensorFlow (industry standard AI frameworks)",
+    "Strong programming skills in Python and C++ (common for AI/edge deployment)",
+    "Familiarity with embedded systems and hardware constraints",
+    "Experience with model quantization and compression techniques",
+    "Understanding of MLOps and deployment pipelines",
+    "Knowledge of current AI research trends and papers",
+    "Previous work at a semiconductor or hardware company",
+    "Experience with real-world product deployments, not just research",
+    "Track record of successful project completion",
+    "Experience working with hardware engineering teams"
   ],
-  
-  "hidden_insights": [
-    {
-      "insight": "Executive workflow reverse-engineering requires deep business acumen beyond technical skills",
-      "category": "workflow",
-      "why_hidden": "Most applicants focus on technical GenAI skills, missing the strategic business context understanding required for VP-level automation",
-      "importance": 0.93,
-      "applicant_miss_rate": 0.89,
-      "evidence_sources": ["shadow VP", "capture friction", "strategic context"]
-    },
-    {
-      "insight": "Real-time friction detection demands pattern recognition at executive decision-making level",
-      "category": "cognitive",
-      "why_hidden": "Requires understanding of executive mental models and decision patterns, not just process automation",
-      "importance": 0.91,
-      "applicant_miss_rate": 0.92,
-      "evidence_sources": ["real-time", "friction points", "executive workflow"]
-    },
-    {
-      "insight": "Digital twin development needs specialized AI personalization beyond standard LLM fine-tuning",
-      "category": "technical",
-      "why_hidden": "Most candidates think digital twin = chatbot, missing the sophisticated voice modeling and decision pattern replication required",
-      "importance": 0.94,
-      "applicant_miss_rate": 0.95,
-      "evidence_sources": ["digital twin", "indistinguishable", "personal-style LLM"]
-    },
-    {
-      "insight": "AI evangelism requires thought leadership communication skills and media presence ability",
-      "category": "communication",
-      "why_hidden": "Technical candidates often overlook the public-facing evangelism and external communication requirements",
-      "importance": 0.87,
-      "applicant_miss_rate": 0.83,
-      "evidence_sources": ["evangelize", "broadcast", "media drops", "conference demos"]
-    },
-    {
-      "insight": "Enterprise security consciousness essential for VP-level data and communication access",
-      "category": "security",
-      "why_hidden": "Candidates focus on functionality without considering enterprise security implications of VP-level automation",
-      "importance": 0.85,
-      "applicant_miss_rate": 0.78,
-      "evidence_sources": ["VP access", "enterprise APIs", "sensitive information"]
-    }
+  "company_culture_signals": [
+    "Company Values:",
+    "Work Environment:",
+    "Growth Stage:",
+    "Innovation Culture:",
+    "Communication Style:",
+    "Team Dynamics:",
+    "Decision-Making Process:",
+    "Strong emphasis on technical excellence (\"exceptional AI engineer\", \"deep technical expertise\")"
   ],
-  
-  "competitive_analysis": {
-    "total_applicants_estimated": 750,
-    "percentage_meeting_basic_reqs": 0.25,
-    "percentage_with_genai_experience": 0.12,
-    "percentage_with_exec_experience": 0.04,
-    "percentage_with_scale_experience": 0.08,
-    "your_competitive_advantage": "Top 3% (GenAI + Scale + VP collaboration experience)",
-    "unique_differentiators": [
-      "Proven GenAI product shipping (Storynest.ai)",
-      "Executive-level scale experience (5x growth)",
-      "Cost optimization expertise (54% COGS reduction)", 
-      "Multi-model LLM architecture mastery",
-      "Teaching/training background (scuba instructor)",
-      "International team leadership experience"
-    ]
-  },
-  
+  "technical_stack": [],
+  "experience_level": "Mid-level",
+  "team_dynamics": "Collaborative",
+  "growth_opportunities": [
+    "mentorship",
+    "cutting-edge"
+  ],
+  "red_flags": [],
+  "alignment_score": 0.85,
   "success_metrics": [
-    "≥ 5 production agents live by day 30",
-    "≥ 30% reduction in VP calendar load by day 90", 
-    "≥ 2 external media features or conference demos by month 6",
-    "≥ 70% confusion rate in digital twin Turing evaluation",
-    "BLEU score ≥ 0.75 for voice authenticity",
-    ">25% reduction in human touchpoints by day 60"
-  ],
-  
-  "failure_indicators": [
-    "Inability to ship agents on daily basis",
-    "VP productivity not measurably improved by day 90",
-    "Digital twin fails Turing evaluation (<70% confusion)",
-    "No external media coverage by month 6",
-    "Cost per automation exceeds VP time value"
-  ],
-  
-  "technical_stack": [
-    "AI/ML Frameworks: LangChain, MCP, OpenAI, Claude, Anthropic",
-    "Languages: Python, TypeScript", 
-    "Cloud/Deployment: Vercel",
-    "Enterprise APIs: Teams, Confluence, Office, SharePoint",
-    "Monitoring: telemetry, metrics, dashboard"
-  ],
-  
-  "cultural_signals": [
-    "Innovation Focus",
-    "Speed Culture", 
-    "Metrics Driven",
-    "Executive Access",
-    "Public Visibility",
-    "Startup Energy"
-  ],
-  
-  "strategic_context": "This role sits at the intersection of AI innovation and executive productivity transformation. ADI ($9B revenue, 24K employees) is positioning for competitive advantage through executive-level AI automation. The digital twin initiative represents a strategic bet on AI-first leadership workflows that could multiply across the entire organization. Success here creates a template for enterprise-wide executive augmentation.",
-  
-  "uniqueness_analysis": {
-    "overall_uniqueness": 0.91,
-    "hidden_requirements_found": 5,
-    "critical_unique_requirements": 3,
-    "competitive_advantage_score": 0.96,
-    "insight_depth_score": 0.89
-  }
+    "SUCCESS",
+    "Success",
+    "Deliver",
+    "metric"
+  ]
 }
